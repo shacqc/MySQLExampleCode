@@ -94,7 +94,7 @@ DELIMITER ;
     
 
 
-CALL GetContainersSoldOnYear(2022); --How many Containers did they sell on a year?
+CALL GetContainersSoldOnYear(2022); -- How many Containers did they sell on a year?
 CALL GetSalesOrdersPerCustomer(now(), date_sub(now(), INTERVAL 3 YEAR)); -- Total Sales by Customer for a period of time. Example does 3 years
 CALL GetTotalProductsSold(); -- How much of each product we sold overall.
 CALL GetTotalProductsSoldToEachVessel(); -- How much of each product we sold to each vessel.

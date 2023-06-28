@@ -1,1 +1,3 @@
 # MySQLExampleCode
+
+Script creates a data base that has tables SalesOrders, Shipment Vessels, and Shipped Containers. The script also contains and creates 6 procedures that can be called to make certain advanced queries. The following queries can be made with the created procedures: how many Containers did they company sell on a year, what were the total sales sold to each customer for a period of time,  how much of each product the company sold overall, how much of each product the company sold to each vessel, how much of each product the company sold to each destinations, and how much of each product the company sold to each address. The script then reveals all the tables that were created.
